@@ -1,5 +1,5 @@
 import random
-def main():
+def main()->None:
   with open('out','w') as f:
     f.write(str(random.random()))
 if __name__=='__main__':
